@@ -2,8 +2,8 @@ var flyd = require('flyd')
 var once = require('../')
 var assert = require('assert')
 
-describe('once', () => {
-  it('Should only be executed once', () => {
+describe('once', function () {
+  it('Should only be executed once', function () {
     var stream$ = flyd.stream()
     var once$ = once(stream$)
     var result = []
