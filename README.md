@@ -1,4 +1,6 @@
 # Flyd-once
+[![Build Status](https://travis-ci.org/bertofer/flyd-once.svg?branch=master)](https://travis-ci.org/bertofer/flyd-once)
+
 Once stream for Flyd
 
 ## Usage
